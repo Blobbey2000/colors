@@ -1,0 +1,17 @@
+//% icon="\uf1fc"
+//% color="#330DF0"
+namespace Colors {
+
+    //% block="light wheel $color"
+    //% color.shadow="colorWheelPicker"
+    export function lightColorWheel(color: number) {
+    return color;
+    }
+
+   //% block="dark wheel $color"
+   //% color.shadow="colorWheelHsvPicker"
+   export function darkColorWheel(color: number) {
+    return color;
+}
+
+}
